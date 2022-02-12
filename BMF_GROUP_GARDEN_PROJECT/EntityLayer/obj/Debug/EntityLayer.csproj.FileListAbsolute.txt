@@ -1,0 +1,12 @@
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\EntityLayer\obj\Debug\EntityLayer.pdb

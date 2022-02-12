@@ -1,0 +1,17 @@
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\DataAccessLayer,.dll.config
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\DataAccessLayer,.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\DataAccessLayer,.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityFramework.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityLayer.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityLayer.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityLayer.dll.config
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityFramework.xml
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer,.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer,.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer_.Migrations.firstmigrations.resources
+C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\DataAccessLayer,\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
