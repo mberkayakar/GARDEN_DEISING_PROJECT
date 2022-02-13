@@ -11,6 +11,7 @@ namespace EntityLayer
     {
         [Key]
         public int ID { get; set; }
+        
         [StringLength(100)]
         public string Name { get; set; }
         
@@ -19,8 +20,13 @@ namespace EntityLayer
         public string Sex { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
+        public string Password_Reset_Code { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
+ 
+
+
+
 
 
 

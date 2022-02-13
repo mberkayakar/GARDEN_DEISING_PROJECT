@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ae3d1e4c-b187-460a-86b8-aef1319e14e7": {
+      "ProjectGuid": "ae3d1e4c-b187-460a-86b8-aef1319e14e7",
+      "DisplayName": "BMF_GROUP_GARDEN_PROJECT",
+      "ColorIndex": 0
+    },
+    "65b46d8c-6dc9-4942-ade0-70d58feb6193": {
+      "ProjectGuid": "65b46d8c-6dc9-4942-ade0-70d58feb6193",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 1
+    },
+    "c3897396-7203-4aba-a9a6-82ccb24b14a1": {
+      "ProjectGuid": "c3897396-7203-4aba-a9a6-82ccb24b14a1",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "354aface-82df-4961-b909-cc6267dc0aef": {
+      "ProjectGuid": "354aface-82df-4961-b909-cc6267dc0aef",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
