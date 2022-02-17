@@ -16,3 +16,21 @@ C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PR
 C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\Muhammed Berkay AKAR\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\DataAccessLayer,.dll
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\DataAccessLayer,.pdb
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\DataAccessLayer,.dll.config
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\mberk\Desktop\GARDEN_DEISING_PROJECT\BMF_GROUP_GARDEN_PROJECT\BusinessLayer\obj\Debug\BusinessLayer.pdb

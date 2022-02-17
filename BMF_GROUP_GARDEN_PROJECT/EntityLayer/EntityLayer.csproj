@@ -51,7 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Adress.cs" />
+    <Compile Include="Entities\AdressTypes.cs" />
+    <Compile Include="Entities\CITY.cs" />
+    <Compile Include="Entities\DISTRICT.cs" />
     <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\Rütbeler.cs" />
+    <Compile Include="Entities\SOILTYPE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

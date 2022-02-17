@@ -21,7 +21,13 @@ namespace DataAccessLayer_
         {
             _object = context.Set<T>();
         }
-         
+
+        public IQueryable<T> AsQueryable()
+        {
+            IQueryable<T> query = _object;
+            return query;
+        }
+
         public int Delete(T p)
         {
             _object.Remove(p);
@@ -38,7 +44,7 @@ namespace DataAccessLayer_
         {
             IQueryable<T> query = _object;
 
-            if (query != null)
+            if (where != null)
             {
                 query = query.Where(where);
             }

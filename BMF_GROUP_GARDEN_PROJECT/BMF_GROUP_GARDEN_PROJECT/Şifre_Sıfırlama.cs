@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using DataAccessLayer_;
 using EntityLayer;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,7 @@ namespace BMF_GROUP_GARDEN_PROJECT
 
         }
 
-        CategoryManager personel = new CategoryManager();
+        private readonly EmployeesManager personel = new EmployeesManager(new Repository<Employee>());
 
 
 
@@ -36,9 +37,9 @@ namespace BMF_GROUP_GARDEN_PROJECT
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            var a = personel.getbyfilter(textBox1.Text);
+            var a = personel.GetByFilter(x => x.UserName == textBox1.Text);
 
-            if (a.Count == 0)
+            if (a ==null)
             {
                 MessageBox.Show("Sistemde Byle Bir Kullanıcı Mevcut Bulunmamaktadır. ");
 
@@ -47,19 +48,46 @@ namespace BMF_GROUP_GARDEN_PROJECT
             {
 
                 Employee employee = new Employee();
-                foreach (var item in a)
-                {
-                    employee.Email = item.Email; // bu sensin yani sen parolanı unuttun ole dusun
-                    employee.Password = item.Password;
+                // foreach (var item in a)
+                // {
+                    employee.Email = a.Email; // bu sensin yani sen parolanı unuttun ole dusun
+                    employee.Password = a.Password;
 
-                }
+                // }
 
                 eposta.From = new MailAddress("m.berkay.akar@mail.com");
                 eposta.To.Add(employee.Email);
                 eposta.Subject = "BMF_GARDEN_PROJECT_RESET_PASSWORD";
-                eposta.Body = "Değerli BMF_PROJECT üyesi seni oncelikle aramızda gordugumuzden tekrardan mutluluk duymaktayız. \n \n \n  Unuttuğun şifren : " + employee.Password + "\n \n \n İyi günler dileriz ...";
+                
+                eposta.IsBodyHtml = true;
 
-                smtp.Credentials = new System.Net.NetworkCredential("m.berkay.akar@gmail.com", "Qwerasdf0147");
+                //eposta.Body = @"<!DOCTYPE html><html><head><title> Page Title </title></head><body><h1>This is a Heading</h1><p>This is a paragraph.</p></body></html>";
+
+
+                eposta.Body = @"
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {color:red;}
+p {color:blue;}
+</style>
+</head>
+<body>
+
+<h1 >This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+ ";
+
+
+                //"Değerli BMF_PROJECT üyesi seni oncelikle aramızda gordugumuzden tekrardan mutluluk duymaktayız. \n \n \n  Unuttuğun şifren : " + employee.Password + "\n \n \n İyi günler dileriz ...";
+
+                smtp.Credentials = new System.Net.NetworkCredential("m.berkay.akar@gmail.com", "Mba18514110");
 
 
 

@@ -35,7 +35,7 @@ namespace DataAccessLayer_.Abstract
         List<T> GetAll(Expression<Func<T, bool>> where = null,params Expression<Func<T, object>>[] includeProperties);
         // parametre olarak sınırsız joın alabıleceksın ama en sonda kullanmak zorundasın
 
-
+        IQueryable<T> AsQueryable();
 
     }
 }
