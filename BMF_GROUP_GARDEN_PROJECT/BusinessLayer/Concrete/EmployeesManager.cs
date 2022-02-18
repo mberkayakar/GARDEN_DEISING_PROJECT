@@ -14,14 +14,14 @@ namespace BusinessLayer
     public class EmployeesManager : GenericManager<Employee>, IEmployeeServices
     {
         private readonly IRepository<Employee> _repository;
-        // şimdi boku yedik
+
 
         public EmployeesManager(IRepository<Employee> repository) : base(repository) // direkt aktarım yaptım
         {
             _repository = repository;
         }
 
-        // validasyonları artık orda yaz hamallık yapmamış ol işte ve join şöyle olucak
+        #region MyRegion
 
 
 
@@ -110,5 +110,7 @@ namespace BusinessLayer
         //{
         //    throw new NotImplementedException();
         //}
+        #endregion
+
     }
 }

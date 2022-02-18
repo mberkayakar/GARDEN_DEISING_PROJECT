@@ -16,7 +16,7 @@ namespace BMF_GROUP_GARDEN_PROJECT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoadingScreen());
+            Application.Run(new Giris_Ekrani());
         }
     }
 }

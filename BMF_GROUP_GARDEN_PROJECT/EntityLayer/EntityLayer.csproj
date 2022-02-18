@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EntityLayer</RootNamespace>
     <AssemblyName>EntityLayer</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,10 +53,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Adress.cs" />
+    <Compile Include="Entities\AdressType.cs" />
     <Compile Include="Entities\AdressTypes.cs" />
     <Compile Include="Entities\CITY.cs" />
+    <Compile Include="Entities\Customers.cs" />
     <Compile Include="Entities\DISTRICT.cs" />
     <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\MessageTable.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Entities\OrderDetails.cs" />
     <Compile Include="Entities\Rütbeler.cs" />
     <Compile Include="Entities\SOILTYPE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

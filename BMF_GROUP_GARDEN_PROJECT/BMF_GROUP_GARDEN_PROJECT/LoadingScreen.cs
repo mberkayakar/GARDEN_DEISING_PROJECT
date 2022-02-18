@@ -40,7 +40,7 @@ namespace BMF_GROUP_GARDEN_PROJECT
             if (a == 7)
             {
                timer1.Stop();
-                Giris_Ekran g = new Giris_Ekran();
+                Giris_Ekrani g = new Giris_Ekrani();
                 g.Show();
                 this.Visible = false;
             }

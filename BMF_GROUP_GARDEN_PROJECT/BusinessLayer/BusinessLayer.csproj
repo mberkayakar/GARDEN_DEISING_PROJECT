@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BusinessLayer</RootNamespace>
     <AssemblyName>BusinessLayer</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
@@ -54,8 +54,10 @@
   <ItemGroup>
     <Compile Include="Abstract\IEmployeeServices.cs" />
     <Compile Include="Abstract\IGenericServices.cs" />
+    <Compile Include="Abstract\IMessageServices.cs" />
     <Compile Include="Concrete\GenericManager.cs" />
     <Compile Include="Concrete\EmployeesManager.cs" />
+    <Compile Include="Concrete\MessageManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

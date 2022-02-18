@@ -9,12 +9,13 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>BMF_GROUP_GARDEN_PROJECT</RootNamespace>
     <AssemblyName>BMF_GROUP_GARDEN_PROJECT</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -41,7 +42,11 @@
     <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v21.2.Core, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -86,11 +91,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Giris_Ekran.cs">
+    <Compile Include="Giris_Ekran2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Giris_Ekran.Designer.cs">
-      <DependentUpon>Giris_Ekran.cs</DependentUpon>
+    <Compile Include="Giris_Ekran2.Designer.cs">
+      <DependentUpon>Giris_Ekran2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris_Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris_Ekrani.Designer.cs">
+      <DependentUpon>Giris_Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KisiselSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KisiselSayfa.Designer.cs">
+      <DependentUpon>KisiselSayfa.cs</DependentUpon>
     </Compile>
     <Compile Include="LoadingScreen.cs">
       <SubType>Form</SubType>
@@ -118,8 +135,14 @@
     <Compile Include="Şifre_Sıfırlama.Designer.cs">
       <DependentUpon>Şifre_Sıfırlama.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Giris_Ekran.resx">
-      <DependentUpon>Giris_Ekran.cs</DependentUpon>
+    <EmbeddedResource Include="Giris_Ekran2.resx">
+      <DependentUpon>Giris_Ekran2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris_Ekrani.resx">
+      <DependentUpon>Giris_Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KisiselSayfa.resx">
+      <DependentUpon>KisiselSayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoadingScreen.resx">
       <DependentUpon>LoadingScreen.cs</DependentUpon>
@@ -127,6 +150,7 @@
     <EmbeddedResource Include="PersonelKarsilamaEkrani.resx">
       <DependentUpon>PersonelKarsilamaEkrani.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -135,6 +159,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SehirlerBilgisi.resx">
       <DependentUpon>SehirlerBilgisi.cs</DependentUpon>

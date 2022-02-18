@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataAccessLayer_</RootNamespace>
     <AssemblyName>DataAccessLayer,</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,6 +55,30 @@
   <ItemGroup>
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="Migrations\202202180632473_selamınaleyküm.cs" />
+    <Compile Include="Migrations\202202180632473_selamınaleyküm.designer.cs">
+      <DependentUpon>202202180632473_selamınaleyküm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202180716009_deneme.cs" />
+    <Compile Include="Migrations\202202180716009_deneme.designer.cs">
+      <DependentUpon>202202180716009_deneme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202180837196_malberkay.cs" />
+    <Compile Include="Migrations\202202180837196_malberkay.designer.cs">
+      <DependentUpon>202202180837196_malberkay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202180949359_Messagetableadded.cs" />
+    <Compile Include="Migrations\202202180949359_Messagetableadded.designer.cs">
+      <DependentUpon>202202180949359_Messagetableadded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202180952569_okundubilgisiguncelendi.cs" />
+    <Compile Include="Migrations\202202180952569_okundubilgisiguncelendi.designer.cs">
+      <DependentUpon>202202180952569_okundubilgisiguncelendi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202181049435_messagedeneme.cs" />
+    <Compile Include="Migrations\202202181049435_messagedeneme.designer.cs">
+      <DependentUpon>202202181049435_messagedeneme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
@@ -67,6 +92,26 @@
       <Project>{65B46D8C-6DC9-4942-ADE0-70D58FEB6193}</Project>
       <Name>EntityLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202202180632473_selamınaleyküm.resx">
+      <DependentUpon>202202180632473_selamınaleyküm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202180716009_deneme.resx">
+      <DependentUpon>202202180716009_deneme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202180837196_malberkay.resx">
+      <DependentUpon>202202180837196_malberkay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202180949359_Messagetableadded.resx">
+      <DependentUpon>202202180949359_Messagetableadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202180952569_okundubilgisiguncelendi.resx">
+      <DependentUpon>202202180952569_okundubilgisiguncelendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202181049435_messagedeneme.resx">
+      <DependentUpon>202202181049435_messagedeneme.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

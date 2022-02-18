@@ -33,8 +33,7 @@ namespace BMF_GROUP_GARDEN_PROJECT
         MailMessage eposta = new MailMessage();
 
         SmtpClient smtp = new SmtpClient();
-
-
+        Employee employee = new Employee();
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             var a = personel.GetByFilter(x => x.UserName == textBox1.Text);
@@ -47,13 +46,11 @@ namespace BMF_GROUP_GARDEN_PROJECT
             else
             {
 
-                Employee employee = new Employee();
-                // foreach (var item in a)
-                // {
+        
                     employee.Email = a.Email; // bu sensin yani sen parolanı unuttun ole dusun
                     employee.Password = a.Password;
 
-                // }
+            
 
                 eposta.From = new MailAddress("m.berkay.akar@mail.com");
                 eposta.To.Add(employee.Email);
@@ -105,7 +102,7 @@ p {color:blue;}
                 // var aq
                 // daha once adlıgım bi domainin maili için attıramadıydım 25 vermen lazımdı port nosunu,
                 // ama şimdi fişek oldu
-                // kardeşim sikine daşşana beline sağlık
+                //  
 
              
 
@@ -113,11 +110,31 @@ p {color:blue;}
             }
         }
 
-   
+        List<Employee> emp = new List<Employee>();
 
         private void Şifre_Sıfırlama_Load(object sender, EventArgs e)
         {
-           
+            emp = personel.Getall().ToList();
+
+            AutoCompleteStringCollection sc = new AutoCompleteStringCollection();
+            foreach (var item in emp)
+            {
+                sc.Add(item.UserName + "   (" + item.Name + " " + item.Surname + ")");
+            }
+            textBox1.AutoCompleteCustomSource = sc;
+            textBox1.AutoCompleteMode = AutoCompleteMode.Suggest;
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+    
+
         }
     }
 }

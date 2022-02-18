@@ -11,8 +11,11 @@ namespace EntityLayer.Entities
     {
         [Key]
         public int Id { get; set; }
+
         public int AdressTypeİd { get; set; }
+
         public int DistrictId { get; set; }
+
         public int Clientİd { get; set; }
 
 

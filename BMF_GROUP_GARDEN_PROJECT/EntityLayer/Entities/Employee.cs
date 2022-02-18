@@ -23,7 +23,9 @@ namespace EntityLayer
         public string Password_Reset_Code { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
- 
+        public string Photos { get; set; }
+
+
 
 
 
